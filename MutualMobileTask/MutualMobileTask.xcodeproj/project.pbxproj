@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C25CF88E1CA4056E00181282 /* MMTCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = C25CF88D1CA4056E00181282 /* MMTCategory.m */; };
+		C2881E101CA39D4600A3AB9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2881E0F1CA39D4600A3AB9A /* main.m */; };
+		C2881E131CA39D4600A3AB9A /* MMTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2881E121CA39D4600A3AB9A /* MMTAppDelegate.m */; };
+		C2881E161CA39D4600A3AB9A /* MMTRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2881E151CA39D4600A3AB9A /* MMTRootViewController.m */; };
+		C2881E191CA39D4600A3AB9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2881E171CA39D4600A3AB9A /* Main.storyboard */; };
+		C2881E1B1CA39D4600A3AB9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2881E1A1CA39D4600A3AB9A /* Images.xcassets */; };
+		C2881E1E1CA39D4600A3AB9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2881E1C1CA39D4600A3AB9A /* LaunchScreen.xib */; };
+		C2881E2A1CA39D4600A3AB9A /* MutualMobileTaskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2881E291CA39D4600A3AB9A /* MutualMobileTaskTests.m */; };
+		C2881E361CA3A02C00A3AB9A /* MMTCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C2881E341CA3A02C00A3AB9A /* MMTCollectionViewCell.m */; };
+		C2881E371CA3A02C00A3AB9A /* MMTCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2881E351CA3A02C00A3AB9A /* MMTCollectionViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C2881E241CA39D4600A3AB9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2881E021CA39D4500A3AB9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2881E091CA39D4500A3AB9A;
+			remoteInfo = MutualMobileTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C25CF88C1CA4056E00181282 /* MMTCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMTCategory.h; sourceTree = "<group>"; };
+		C25CF88D1CA4056E00181282 /* MMTCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMTCategory.m; sourceTree = "<group>"; };
+		C25CF88F1CA42EEE00181282 /* MMTConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMTConstants.h; sourceTree = "<group>"; };
+		C2881E0A1CA39D4500A3AB9A /* MutualMobileTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MutualMobileTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2881E0E1CA39D4600A3AB9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2881E0F1CA39D4600A3AB9A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C2881E111CA39D4600A3AB9A /* MMTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMTAppDelegate.h; sourceTree = "<group>"; };
+		C2881E121CA39D4600A3AB9A /* MMTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMTAppDelegate.m; sourceTree = "<group>"; };
+		C2881E141CA39D4600A3AB9A /* MMTRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMTRootViewController.h; sourceTree = "<group>"; };
+		C2881E151CA39D4600A3AB9A /* MMTRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMTRootViewController.m; sourceTree = "<group>"; };
+		C2881E181CA39D4600A3AB9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C2881E1A1CA39D4600A3AB9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C2881E1D1CA39D4600A3AB9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C2881E231CA39D4600A3AB9A /* MutualMobileTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MutualMobileTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2881E281CA39D4600A3AB9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2881E291CA39D4600A3AB9A /* MutualMobileTaskTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MutualMobileTaskTests.m; sourceTree = "<group>"; };
+		C2881E331CA3A02C00A3AB9A /* MMTCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMTCollectionViewCell.h; sourceTree = "<group>"; };
+		C2881E341CA3A02C00A3AB9A /* MMTCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMTCollectionViewCell.m; sourceTree = "<group>"; };
+		C2881E351CA3A02C00A3AB9A /* MMTCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MMTCollectionViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2881E071CA39D4500A3AB9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2881E201CA39D4600A3AB9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C2881E011CA39D4500A3AB9A = {
+			isa = PBXGroup;
+			children = (
+				C2881E0C1CA39D4500A3AB9A /* MutualMobileTask */,
+				C2881E261CA39D4600A3AB9A /* MutualMobileTaskTests */,
+				C2881E0B1CA39D4500A3AB9A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2881E0B1CA39D4500A3AB9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2881E0A1CA39D4500A3AB9A /* MutualMobileTask.app */,
+				C2881E231CA39D4600A3AB9A /* MutualMobileTaskTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2881E0C1CA39D4500A3AB9A /* MutualMobileTask */ = {
+			isa = PBXGroup;
+			children = (
+				C25CF88C1CA4056E00181282 /* MMTCategory.h */,
+				C25CF88D1CA4056E00181282 /* MMTCategory.m */,
+				C25CF88F1CA42EEE00181282 /* MMTConstants.h */,
+				C2881E111CA39D4600A3AB9A /* MMTAppDelegate.h */,
+				C2881E121CA39D4600A3AB9A /* MMTAppDelegate.m */,
+				C2881E141CA39D4600A3AB9A /* MMTRootViewController.h */,
+				C2881E151CA39D4600A3AB9A /* MMTRootViewController.m */,
+				C2881E171CA39D4600A3AB9A /* Main.storyboard */,
+				C2881E331CA3A02C00A3AB9A /* MMTCollectionViewCell.h */,
+				C2881E341CA3A02C00A3AB9A /* MMTCollectionViewCell.m */,
+				C2881E351CA3A02C00A3AB9A /* MMTCollectionViewCell.xib */,
+				C2881E1A1CA39D4600A3AB9A /* Images.xcassets */,
+				C2881E1C1CA39D4600A3AB9A /* LaunchScreen.xib */,
+				C2881E0D1CA39D4600A3AB9A /* Supporting Files */,
+			);
+			path = MutualMobileTask;
+			sourceTree = "<group>";
+		};
+		C2881E0D1CA39D4600A3AB9A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2881E0E1CA39D4600A3AB9A /* Info.plist */,
+				C2881E0F1CA39D4600A3AB9A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C2881E261CA39D4600A3AB9A /* MutualMobileTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				C2881E291CA39D4600A3AB9A /* MutualMobileTaskTests.m */,
+				C2881E271CA39D4600A3AB9A /* Supporting Files */,
+			);
+			path = MutualMobileTaskTests;
+			sourceTree = "<group>";
+		};
+		C2881E271CA39D4600A3AB9A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2881E281CA39D4600A3AB9A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2881E091CA39D4500A3AB9A /* MutualMobileTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2881E2D1CA39D4600A3AB9A /* Build configuration list for PBXNativeTarget "MutualMobileTask" */;
+			buildPhases = (
+				C2881E061CA39D4500A3AB9A /* Sources */,
+				C2881E071CA39D4500A3AB9A /* Frameworks */,
+				C2881E081CA39D4500A3AB9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MutualMobileTask;
+			productName = MutualMobileTask;
+			productReference = C2881E0A1CA39D4500A3AB9A /* MutualMobileTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C2881E221CA39D4600A3AB9A /* MutualMobileTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2881E301CA39D4600A3AB9A /* Build configuration list for PBXNativeTarget "MutualMobileTaskTests" */;
+			buildPhases = (
+				C2881E1F1CA39D4600A3AB9A /* Sources */,
+				C2881E201CA39D4600A3AB9A /* Frameworks */,
+				C2881E211CA39D4600A3AB9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2881E251CA39D4600A3AB9A /* PBXTargetDependency */,
+			);
+			name = MutualMobileTaskTests;
+			productName = MutualMobileTaskTests;
+			productReference = C2881E231CA39D4600A3AB9A /* MutualMobileTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2881E021CA39D4500A3AB9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = MutualMobile;
+				TargetAttributes = {
+					C2881E091CA39D4500A3AB9A = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					C2881E221CA39D4600A3AB9A = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = C2881E091CA39D4500A3AB9A;
+					};
+				};
+			};
+			buildConfigurationList = C2881E051CA39D4500A3AB9A /* Build configuration list for PBXProject "MutualMobileTask" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C2881E011CA39D4500A3AB9A;
+			productRefGroup = C2881E0B1CA39D4500A3AB9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2881E091CA39D4500A3AB9A /* MutualMobileTask */,
+				C2881E221CA39D4600A3AB9A /* MutualMobileTaskTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2881E081CA39D4500A3AB9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2881E371CA3A02C00A3AB9A /* MMTCollectionViewCell.xib in Resources */,
+				C2881E191CA39D4600A3AB9A /* Main.storyboard in Resources */,
+				C2881E1E1CA39D4600A3AB9A /* LaunchScreen.xib in Resources */,
+				C2881E1B1CA39D4600A3AB9A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2881E211CA39D4600A3AB9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2881E061CA39D4500A3AB9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2881E361CA3A02C00A3AB9A /* MMTCollectionViewCell.m in Sources */,
+				C2881E161CA39D4600A3AB9A /* MMTRootViewController.m in Sources */,
+				C25CF88E1CA4056E00181282 /* MMTCategory.m in Sources */,
+				C2881E131CA39D4600A3AB9A /* MMTAppDelegate.m in Sources */,
+				C2881E101CA39D4600A3AB9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2881E1F1CA39D4600A3AB9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2881E2A1CA39D4600A3AB9A /* MutualMobileTaskTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C2881E251CA39D4600A3AB9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2881E091CA39D4500A3AB9A /* MutualMobileTask */;
+			targetProxy = C2881E241CA39D4600A3AB9A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C2881E171CA39D4600A3AB9A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2881E181CA39D4600A3AB9A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C2881E1C1CA39D4600A3AB9A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2881E1D1CA39D4600A3AB9A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C2881E2B1CA39D4600A3AB9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C2881E2C1CA39D4600A3AB9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2881E2E1CA39D4600A3AB9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MutualMobileTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.mutualmobile.com.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C2881E2F1CA39D4600A3AB9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MutualMobileTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.mutualmobile.com.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C2881E311CA39D4600A3AB9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MutualMobileTaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.mutualmobile.com.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MutualMobileTask.app/MutualMobileTask";
+			};
+			name = Debug;
+		};
+		C2881E321CA39D4600A3AB9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MutualMobileTaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.mutualmobile.com.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MutualMobileTask.app/MutualMobileTask";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2881E051CA39D4500A3AB9A /* Build configuration list for PBXProject "MutualMobileTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2881E2B1CA39D4600A3AB9A /* Debug */,
+				C2881E2C1CA39D4600A3AB9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2881E2D1CA39D4600A3AB9A /* Build configuration list for PBXNativeTarget "MutualMobileTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2881E2E1CA39D4600A3AB9A /* Debug */,
+				C2881E2F1CA39D4600A3AB9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2881E301CA39D4600A3AB9A /* Build configuration list for PBXNativeTarget "MutualMobileTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2881E311CA39D4600A3AB9A /* Debug */,
+				C2881E321CA39D4600A3AB9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2881E021CA39D4500A3AB9A /* Project object */;
+}
