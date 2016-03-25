@@ -90,9 +90,6 @@
 		C2881E0C1CA39D4500A3AB9A /* MutualMobileTask */ = {
 			isa = PBXGroup;
 			children = (
-				C25CF88C1CA4056E00181282 /* MMTCategory.h */,
-				C25CF88D1CA4056E00181282 /* MMTCategory.m */,
-				C25CF88F1CA42EEE00181282 /* MMTConstants.h */,
 				C2881E111CA39D4600A3AB9A /* MMTAppDelegate.h */,
 				C2881E121CA39D4600A3AB9A /* MMTAppDelegate.m */,
 				C2881E141CA39D4600A3AB9A /* MMTRootViewController.h */,
@@ -101,6 +98,9 @@
 				C2881E331CA3A02C00A3AB9A /* MMTCollectionViewCell.h */,
 				C2881E341CA3A02C00A3AB9A /* MMTCollectionViewCell.m */,
 				C2881E351CA3A02C00A3AB9A /* MMTCollectionViewCell.xib */,
+				C25CF88C1CA4056E00181282 /* MMTCategory.h */,
+				C25CF88D1CA4056E00181282 /* MMTCategory.m */,
+				C25CF88F1CA42EEE00181282 /* MMTConstants.h */,
 				C2881E1A1CA39D4600A3AB9A /* Images.xcassets */,
 				C2881E1C1CA39D4600A3AB9A /* LaunchScreen.xib */,
 				C2881E0D1CA39D4600A3AB9A /* Supporting Files */,

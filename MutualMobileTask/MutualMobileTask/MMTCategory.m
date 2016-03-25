@@ -20,12 +20,18 @@
         
         if (NO == [self isEmpty:[item objectForKey:kMMTCategoryDateKey]]) {
             category.categoryDate = item[kMMTCategoryDateKey];
+        } else {
+            category.categoryDate = @"";
         }
         if (NO == [self isEmpty:[[item objectForKey:kMMTCategoryDetailsKey] objectForKey:kMMTCategoryTitleKey]]) {
             category.categoryTitle = [[item objectForKey:kMMTCategoryDetailsKey] objectForKey:kMMTCategoryTitleKey];
+        } else {
+            category.categoryTitle = @"";
         }
         if (NO == [self isEmpty:[[item objectForKey:kMMTCategoryDetailsKey] objectForKey:kMMTCategorDescriptionKey]]) {
             category.categoryDescription = [[item objectForKey:kMMTCategoryDetailsKey] objectForKey:kMMTCategorDescriptionKey];
+        } else {
+            category.categoryDescription = [NSArray new];
         }
         [categorys addObject:category];
     }

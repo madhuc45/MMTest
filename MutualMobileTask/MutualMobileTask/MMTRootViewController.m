@@ -107,7 +107,10 @@
                                    } else {
                                        [categoryArray addObjectsFromArray:[MMTCategory loadCategorysFromServerData:[serverData objectForKey:@"dates"]]];
                                    }
-                               } 
+                               }
+                               if (categoryArray.count) {
+                                   [self updateCategoryArray];
+                               }
                                [_dateCollectionView reloadData];
                            }];
 }
@@ -116,9 +119,60 @@
 - (void)hideDetailsView: (UIGestureRecognizer *)gesture
 {
     [_detailsView setHidden:YES];
-    
     MMTCollectionViewCell *cell = (MMTCollectionViewCell *)[_dateCollectionView cellForItemAtIndexPath:selectedIndexPath];
         cell.contentView.backgroundColor = [UIColor lightTextColor];
+}
+
+#pragma mark ScrollView Delegate -
+- (void) scrollViewDidEndDecelerating:(UIScrollView *)scrollView
+{
+    CGSize size = [self collectionView:_dateCollectionView
+                                layout:_dateCollectionView.collectionViewLayout
+                sizeForItemAtIndexPath:[NSIndexPath indexPathForItem:0 inSection:0]];
+
+    // Calculate where the collection view should be at the right-hand end item
+    float contentOffsetWhenFullyScrolledRight = size.width * ([categoryArray count] - 1);
+    if (scrollView.contentOffset.x == contentOffsetWhenFullyScrolledRight) {
+        // user is scrolling to the right from the last item to the 'fake' item 1.
+        // reposition offset to show the 'real' item 1 at the left-hand end of the collection view
+        
+        NSIndexPath *newIndexPath = [NSIndexPath indexPathForItem:1 inSection:0];
+        
+        [_dateCollectionView scrollToItemAtIndexPath:newIndexPath atScrollPosition:UICollectionViewScrollPositionLeft animated:NO];
+        [self hideDetailsView:nil];
+    } else if (scrollView.contentOffset.x == 0)  {
+        // user is scrolling to the left from the first item to the fake 'item N'.
+        // reposition offset to show the 'real' item N at the right end end of the collection view
+        
+        NSIndexPath *newIndexPath = [NSIndexPath indexPathForItem:([categoryArray count] -2) inSection:0];
+        [_dateCollectionView scrollToItemAtIndexPath:newIndexPath atScrollPosition:UICollectionViewScrollPositionLeft animated:NO];
+        [self hideDetailsView:nil];
+    }
 
 }
+
+#pragma mark Custom Methods -
+
+/* Methods used to updating the infinte Scrolling of UICollection View  */
+- (void)updateCategoryArray
+{
+    // Grab references to the first and last items
+    // They're typed as id so you don't need to worry about what kind
+    // of objects the originalArray is holding
+    id firstItem = categoryArray[0];
+    id lastItem = [categoryArray lastObject];
+    
+    NSMutableArray *workingArray = [categoryArray mutableCopy];
+    
+    // Add the copy of the last item to the beginning
+    [workingArray insertObject:lastItem atIndex:0];
+    
+    // Add the copy of the first item to the end
+    [workingArray addObject:firstItem];
+    
+    // Update the collection view's data source property
+    [categoryArray removeAllObjects];
+    [categoryArray addObjectsFromArray:workingArray];
+}
+
 @end

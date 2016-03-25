@@ -15,5 +15,5 @@
 #define kMMTCategoryTitleKey    @"title"
 #define kMMTCategorDescriptionKey       @"description"
 #define kMMTCategoryDetailsKey    @"details"
-
+#define kMMTDatesKey            @"dates"
 #endif /* MMTConstants_h */

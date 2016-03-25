@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MMTRootViewController : UIViewController < UICollectionViewDataSource, UICollectionViewDelegate, UIGestureRecognizerDelegate, UIScrollViewDelegate>
+@interface MMTRootViewController : UIViewController < UICollectionViewDataSource, UICollectionViewDelegate, UIGestureRecognizerDelegate, UIScrollViewDelegate, UICollectionViewDelegateFlowLayout>
 @property (strong, nonatomic) IBOutlet UICollectionView *dateCollectionView;
 @property (strong, nonatomic) IBOutlet UIView *detailsView;
 
