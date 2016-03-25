@@ -3,7 +3,7 @@ This is working build of MMT.
 
 Need to update ProgressBar, Comments for methods
 
-Need to update the infinite scrolling in Collection View
+Implemented Infinte Scrolling.
 
 While selecting any of the Collection View Cell Item, It will highlighted with red color and display the detailed view bottem of the screen.
 
